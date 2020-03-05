@@ -12,7 +12,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-  end
 end
 
 # def swap_elements_from_to(array, index, destination_index)
