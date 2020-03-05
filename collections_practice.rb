@@ -11,7 +11,15 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
+  array.each_with_index.collect do |ele, i|
+    if i == 1 
+      ele = array[2]
+    elsif i == 2 
+      ele = array[1]
+    else
+      ele
+    end
+  end
 end
 
 # def swap_elements_from_to(array, index, destination_index)
